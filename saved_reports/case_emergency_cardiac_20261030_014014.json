@@ -1,0 +1,69 @@
+{
+  "reported_symptoms": [
+    "Shortness of breath",
+    "Chest pain",
+    "Dizziness"
+  ],
+  "duration": "45 minutes",
+  "severity": "Critical",
+  "patient_profile": {
+    "age": 58,
+    "sex": "Male",
+    "duration": "45 minutes",
+    "severity": "Critical",
+    "previous_conditions": [
+      "Hypertension",
+      "Type 2 Diabetes"
+    ],
+    "current_medications": [
+      "Amlodipine 5mg",
+      "Metformin 500mg"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "is_pregnant": false
+  },
+  "possible_conditions": [
+    {
+      "name": "Migraine",
+      "likelihood": "Moderate",
+      "why_considered": "Unilateral or throbbing cranial pain accompanied by nausea or sensory sensitivity suggests migraine cephalalgia.",
+      "differentiating_factors": "Photophobia, phonophobia, visual aura, throbbing quality aggravated by routine physical activity.",
+      "urgency_level": "Routine"
+    },
+    {
+      "name": "Acute Coronary Syndrome / Angina (Red Flag)",
+      "likelihood": "Critical Consideration",
+      "why_considered": "Substernal chest pressure or pain associated with breathlessness demands immediate exclusion of acute myocardial ischemia.",
+      "differentiating_factors": "Pressure/crushing sensation radiating to arm, neck or jaw, diaphoresis, unprovoked onset.",
+      "urgency_level": "Emergency"
+    }
+  ],
+  "why_considered": "The reported symptoms can occur with several respiratory and systemic conditions.",
+  "additional_information_needed": [
+    "Exact body temperature measurement (in °F or °C)",
+    "Resting heart rate / pulse oxygen level if home pulse oximeter available"
+  ],
+  "follow_up_questions": [
+    "What is your exact body temperature when measured with a thermometer?",
+    "Are you experiencing any shortness of breath, wheezing, or difficulty catching your breath?",
+    "Have you noticed any chest tightness, stiff neck, or severe dizziness?"
+  ],
+  "medical_attention": "Seek IMMEDIATE emergency care (911/112) or go to the nearest emergency department.",
+  "triage": {
+    "triage_level": "Emergency",
+    "color_code": "red",
+    "red_flags_detected": [
+      "Potential Acute Coronary Syndrome / Myocardial Infarction warning sign"
+    ],
+    "escalation_recommendation": "Seek IMMEDIATE emergency medical care or call emergency services (911/112). Do not drive yourself.",
+    "emergency_action_required": true
+  },
+  "disclaimer": "This is an informational AI analysis and not a medical diagnosis.",
+  "raw_user_input": "I am having sudden crushing chest pain radiating to my left arm, shortness of breath, dizziness, and cold sweats.",
+  "backend_used": "Deterministic Clinical Engine",
+  "model_name": "ClinicalKB-v1.0",
+  "execution_time": 2.024477243423462,
+  "timestamp": "2026-10-30 01:40:14"
+}
