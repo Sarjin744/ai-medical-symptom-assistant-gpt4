@@ -1,0 +1,75 @@
+{
+  "reported_symptoms": [
+    "Fever",
+    "Cough",
+    "Sore throat"
+  ],
+  "duration": "2 days",
+  "severity": "Mild",
+  "patient_profile": {
+    "age": 22,
+    "sex": "Female",
+    "duration": "2 days",
+    "severity": "Mild",
+    "previous_conditions": [],
+    "current_medications": [],
+    "allergies": [],
+    "is_pregnant": false
+  },
+  "possible_conditions": [
+    {
+      "name": "Common cold",
+      "likelihood": "High",
+      "why_considered": "Mild upper respiratory symptoms (sore throat, cough, nasal congestion) are characteristic of viral rhinitis.",
+      "differentiating_factors": "Typically gradual onset, mild or absent fever, absence of severe muscle aches or dyspnea.",
+      "urgency_level": "Routine"
+    },
+    {
+      "name": "Influenza",
+      "likelihood": "Moderate",
+      "why_considered": "Acute onset of systemic symptoms including fever, fatigue, cough, and myalgias aligns with influenza infection.",
+      "differentiating_factors": "Abrupt onset, higher fever, pronounced prostration and muscle pain compared to common cold.",
+      "urgency_level": "Prompt Evaluation"
+    },
+    {
+      "name": "Other respiratory infection (e.g. Acute Bronchitis or Pharyngitis)",
+      "likelihood": "Moderate",
+      "why_considered": "The reported symptoms can occur with several bacterial or viral respiratory tract infections.",
+      "differentiating_factors": "Persistent productive cough, localized tonsillar exudates, or prolonged duration.",
+      "urgency_level": "Routine"
+    },
+    {
+      "name": "Allergic Rhinitis",
+      "likelihood": "Moderate",
+      "why_considered": "Repetitive paroxysmal sneezing, clear rhinorrhea, and scratchy throat without marked fever indicate allergic sensitization.",
+      "differentiating_factors": "Itchy eyes/palate, seasonal or allergen exposure pattern, lack of fever.",
+      "urgency_level": "Routine"
+    }
+  ],
+  "why_considered": "The reported symptoms can occur with several respiratory and systemic conditions.",
+  "additional_information_needed": [
+    "Exact body temperature measurement (in °F or °C)",
+    "Presence of breathing difficulty or chest tightness",
+    "Resting heart rate / pulse oxygen level if home pulse oximeter available",
+    "Any over-the-counter or prescription medications already taken"
+  ],
+  "follow_up_questions": [
+    "What is your exact body temperature when measured with a thermometer?",
+    "Are you experiencing any shortness of breath, wheezing, or difficulty catching your breath?",
+    "Have you noticed any chest tightness, stiff neck, or severe dizziness?"
+  ],
+  "medical_attention": "Seek professional medical evaluation if symptoms are severe, worsening or concerning.",
+  "triage": {
+    "triage_level": "Non-Urgent Medical Consultation",
+    "color_code": "yellow",
+    "red_flags_detected": [],
+    "escalation_recommendation": "Schedule a consultation with a healthcare provider if symptoms persist beyond 3-5 days or worsen.",
+    "emergency_action_required": false
+  },
+  "disclaimer": "This is an informational AI analysis and not a medical diagnosis.",
+  "raw_user_input": "I have a sore throat, mild fever and cough since 2 days ago.",
+  "backend_used": "Deterministic Clinical Engine",
+  "model_name": "ClinicalKB-v1.0",
+  "execution_time": 2.036768913269043,
+  "timestamp": "2026-10-30 01:40:04"
+}
