@@ -1,0 +1,35 @@
+MEDICAL SYMPTOM ANALYSIS
+--------------------------------
+Reported Symptoms:
+• Shortness of breath
+• Chest pain
+• Dizziness
+
+Duration:
+45 minutes
+
+Patient Age:
+58 years
+
+Severity:
+Critical
+
+Possible Conditions:
+1. Migraine (Moderate)
+2. Acute Coronary Syndrome / Angina (Red Flag) (Critical Consideration)
+
+Why These Were Considered:
+The reported symptoms can occur with several respiratory and systemic conditions.
+
+Additional Information Needed:
+• Exact body temperature measurement (in °F or °C)
+• Resting heart rate / pulse oxygen level if home pulse oximeter available
+
+Medical Attention:
+Seek IMMEDIATE emergency care (911/112) or go to the nearest emergency department.
+
+RED FLAG WARNINGS:
+⚠️ Potential Acute Coronary Syndrome / Myocardial Infarction warning sign
+
+Disclaimer:
+This is an informational AI analysis and not a medical diagnosis.
