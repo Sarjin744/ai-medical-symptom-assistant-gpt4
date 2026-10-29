@@ -1,0 +1,98 @@
+[
+  {
+    "id": "case_lab_manual",
+    "title": "Lab Manual Example: Respiratory Viral Symptoms",
+    "description": "Standard benchmark test case specified in the 24CS2506 lab manual (Pages 1-3).",
+    "input_text": "I have a sore throat, mild fever and cough since 2 days ago.",
+    "profile": {
+      "age": 22,
+      "sex": "Female",
+      "duration": "2 days",
+      "severity": "Mild",
+      "previous_conditions": [],
+      "current_medications": [],
+      "allergies": [],
+      "is_pregnant": false
+    }
+  },
+  {
+    "id": "case_emergency_cardiac",
+    "title": "Emergency Case: Acute Chest Pain & Shortness of Breath",
+    "description": "Critical red-flag scenario evaluating safety guardrails, emergency detection, and clinical escalation.",
+    "input_text": "I am having sudden crushing chest pain radiating to my left arm, shortness of breath, dizziness, and cold sweats.",
+    "profile": {
+      "age": 58,
+      "sex": "Male",
+      "duration": "45 minutes",
+      "severity": "Critical",
+      "previous_conditions": ["Hypertension", "Type 2 Diabetes"],
+      "current_medications": ["Amlodipine 5mg", "Metformin 500mg"],
+      "allergies": ["Penicillin"],
+      "is_pregnant": false
+    }
+  },
+  {
+    "id": "case_gastrointestinal",
+    "title": "Gastrointestinal: Acute Enteritis / Food Poisoning",
+    "description": "Acute presentation of gastrointestinal symptoms with hydration risk evaluation.",
+    "input_text": "I've had a stomach ache, intense nausea, vomiting, and watery diarrhea since last night.",
+    "profile": {
+      "age": 29,
+      "sex": "Male",
+      "duration": "1 day",
+      "severity": "Moderate",
+      "previous_conditions": [],
+      "current_medications": [],
+      "allergies": [],
+      "is_pregnant": false
+    }
+  },
+  {
+    "id": "case_pediatric_ear",
+    "title": "Pediatric Case: Toddler Fever & Ear Pain",
+    "description": "Pediatric vulnerability screening demonstrating age-appropriate follow-up inquiries.",
+    "input_text": "My 4-year-old child has had a high fever and severe ear pain, crying and tugging at their right ear since yesterday.",
+    "profile": {
+      "age": 4,
+      "sex": "Female",
+      "duration": "1 day",
+      "severity": "Moderate",
+      "previous_conditions": ["Recurrent colds"],
+      "current_medications": ["Children's Paracetamol"],
+      "allergies": [],
+      "is_pregnant": false
+    }
+  },
+  {
+    "id": "case_migraine",
+    "title": "Neurological: Migraine Cephalalgia vs Tension Headache",
+    "description": "Evaluation of unilateral throbbing headache, photophobia, and differential distinguishing factors.",
+    "input_text": "I've had a severe throbbing headache on the right side of my head with nausea and sensitivity to light since yesterday.",
+    "profile": {
+      "age": 31,
+      "sex": "Female",
+      "duration": "24 hours",
+      "severity": "Moderate",
+      "previous_conditions": ["Episodic headaches"],
+      "current_medications": [],
+      "allergies": [],
+      "is_pregnant": false
+    }
+  },
+  {
+    "id": "case_allergic_rhinitis",
+    "title": "Allergic Presentation: Seasonal Rhinitis vs Sinusitis",
+    "description": "Differentiating viral vs allergic etiologies based on afebrile paroxysmal sneezing.",
+    "input_text": "I have been sneezing constantly, have a clear runny nose, itchy eyes, and mild fatigue for the past 5 days.",
+    "profile": {
+      "age": 20,
+      "sex": "Male",
+      "duration": "5 days",
+      "severity": "Mild",
+      "previous_conditions": ["Seasonal allergies"],
+      "current_medications": ["Antihistamines occasionally"],
+      "allergies": ["Pollen", "Dust mites"],
+      "is_pregnant": false
+    }
+  }
+]
