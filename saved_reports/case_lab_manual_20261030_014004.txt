@@ -1,0 +1,36 @@
+MEDICAL SYMPTOM ANALYSIS
+--------------------------------
+Reported Symptoms:
+• Fever
+• Cough
+• Sore throat
+
+Duration:
+2 days
+
+Patient Age:
+22 years
+
+Severity:
+Mild
+
+Possible Conditions:
+1. Common cold (High)
+2. Influenza (Moderate)
+3. Other respiratory infection (e.g. Acute Bronchitis or Pharyngitis) (Moderate)
+4. Allergic Rhinitis (Moderate)
+
+Why These Were Considered:
+The reported symptoms can occur with several respiratory and systemic conditions.
+
+Additional Information Needed:
+• Exact body temperature measurement (in °F or °C)
+• Presence of breathing difficulty or chest tightness
+• Resting heart rate / pulse oxygen level if home pulse oximeter available
+• Any over-the-counter or prescription medications already taken
+
+Medical Attention:
+Seek professional medical evaluation if symptoms are severe, worsening or concerning.
+
+Disclaimer:
+This is an informational AI analysis and not a medical diagnosis.
